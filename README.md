@@ -1,5 +1,8 @@
 # Spark SQL/Spark Challenge
 
+## Note: 
+See the .ipynb file for the code for the assignment. I used VSCode and not colab to complete this assignment. 
+
 # Project Description 
 - Create a Spark DataFrame for the dataset. 
 - Create a temporary table of the DataFrame.
