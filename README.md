@@ -1,7 +1,7 @@
 # Spark SQL/Spark Challenge
 
 ## Note: 
-See the .ipynb file for the code for the assignment. I used VSCode and not colab to complete this assignment. 
+See the Home_Sales.ipynb file for the code for the assignment. I did not use the colab file for this assignment.
 
 # Project Description 
 - Create a Spark DataFrame for the dataset. 
