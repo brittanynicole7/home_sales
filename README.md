@@ -4,12 +4,12 @@
 - Create a Spark DataFrame for the dataset. 
 - Create a temporary table of the DataFrame.
 - Create a query that returns the average price, rounded to two decimal places, for a four-bedroom house that was sold in each year. 
-- Create a query that returns the average prcie, rounded to two decimal places, for a home that has three bedrooms and three bathrooms. 
+- Create a query that returns the average price, rounded to two decimal places, for a home that has three bedrooms and three bathrooms. 
 - Create a query that returns the average price of a home with three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet for each year built rounded to two decimal places. 
 - Create a query that returns the view rating for the average price for homes that are greater than or equal to $350,000 rounded to two decimal places.
 - Create a cache of the temporary "home_sales" table. 
-- Run the query again with the cached temporary talb and compute the run time. 
-- Create a partition of the home sales dataset by the "data_built" field and read the formatted parquet data. 
+- Run the query again with the cached temporary table and compute the run time. 
+- Create a partition of the home sales dataset by the "date_built" field and read the formatted parquet data. 
 - Create a temporary table of the parquet data. 
 - Run the query again and compute the run time. 
 - Uncache the "home_sales" temporary table. 
@@ -51,7 +51,7 @@
 <img width="756" alt="Screenshot 2023-06-04 at 11 08 26 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/49f5f93a-a413-4bdf-b76f-0dd517a95c65">
 <img width="1095" alt="Screenshot 2023-06-04 at 11 08 51 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/9e7ae6b0-8d6f-44f9-80b1-6606ff2fae82">
 
-- Ran the query that filters out the view ratings with average price greater than or equal to $350,000 and determined the runtime using the cached table. 
+- Ran the query that filters out the view ratings with an average price greater than or equal to $350,000 and determined the runtime using the cached table. 
 <img width="1159" alt="Screenshot 2023-06-04 at 11 10 15 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/d7fffca8-edc9-4fb8-99db-76dcc7e8a1e0">
 <img width="747" alt="Screenshot 2023-06-04 at 11 10 29 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/a76f3996-1ad0-4a2b-b45c-8dc845fa0d52">
 
@@ -64,7 +64,7 @@
 - Created a temporary table for the parquet data. 
 <img width="877" alt="Screenshot 2023-06-04 at 11 11 58 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/040eef68-8e5a-4a16-9bb5-00a7631a2fe7">
 
-- Ran the query that filetrs out the view ratings with average price greater than or equal to $350,000 with the parquet DataFrame and determined the runtime and compared it to the cached version. 
+- Ran the query that filters out the view ratings with average price greater than or equal to $350,000 with the parquet DataFrame and determined the runtime and compared it to the cached version. 
 <img width="919" alt="Screenshot 2023-06-04 at 11 13 06 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/6db76e68-3429-4b63-ae7e-f1943ce3772c">
 <img width="740" alt="Screenshot 2023-06-04 at 11 13 20 AM" src="https://github.com/brittanynicole7/home_sales/assets/119909433/9f5d6619-1bd9-4006-b3b1-8a019710306a">
 
